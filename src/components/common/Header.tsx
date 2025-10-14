@@ -8,6 +8,10 @@ const Header = () => {
   const isMenuFalse = () => setIsMenu(false);
   return (
     <header className="w-full bg-white shadow">
+      <div className="text-center w-full bg-gradient-to-r from-purple-500 via-pink-500 to-orange-400 text-white py-2 text-lg font-semibold rounded-xl shadow-md">
+  93989 55055
+</div>
+
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 flex justify-between items-center">
         {/* Logo */}
         <Link to="/" className="text-xl font-bold">
