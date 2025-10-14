@@ -8,7 +8,7 @@ const Header = () => {
   const isMenuFalse = () => setIsMenu(false);
   return (
     <header className="w-full bg-white shadow">
-      <div className="text-center w-full bg-gradient-to-r from-purple-500 via-pink-500 to-orange-400 text-white py-2 text-lg font-semibold rounded-xl shadow-md">
+      <div className="text-center w-full bg-gradient-to-r from-purple-500 via-pink-500 to-orange-400 text-white py-2 text-lg font-semibold shadow-md">
   93989 55055
 </div>
 
