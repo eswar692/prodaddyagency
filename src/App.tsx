@@ -4,8 +4,8 @@ import AboutMe from "./pages/Aboubt";
 import Services from "./pages/Services";
 import Contact from "./pages/Contact";
 import WhatsappButton from "./components/custom/WhatsappButton";
-import PrivacyPolicy from "./pages/privacy-policy";
-import TermsOfService from "./pages/terms-of-service";
+import PrivacyPolicy from "./pages/Privacypolicy";
+import TermsOfService from "./pages/Termsofservices";
 
 const App = () => {
   return (
