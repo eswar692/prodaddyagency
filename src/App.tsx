@@ -15,8 +15,8 @@ const App = () => {
         <Route path="/about" element={<AboutMe />} />
         <Route path="/services" element={<Services />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/privacypolicy" element={<Privacy />} />
-        <Route path="/termsofservice" element={<Terms />} />
+        <Route path="/privacy-policy" element={<Privacy />} />
+        <Route path="/terms-of-service" element={<Terms />} />
       </Routes>
       <WhatsappButton />
     </BrowserRouter>
