@@ -4,24 +4,22 @@ import AboutMe from "./pages/Aboubt";
 import Services from "./pages/Services";
 import Contact from "./pages/Contact";
 import WhatsappButton from "./components/custom/WhatsappButton";
-import PrivacyPolicy from "./pages/Privacypolicy";
-import TermsOfService from "./pages/TermsOfService";
+import PrivacyPolicy from "./pages/Privacy";
+import TermsOfService from "./pages/Terms";
 
 const App = () => {
   return (
-    <>
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<AboutMe />} />
-          <Route path="/services" element={<Services />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
-          <Route path="/terms-of-service" element={<TermsOfService />} />
-        </Routes>
-        <WhatsappButton />
-      </BrowserRouter>
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<AboutMe />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+        <Route path="/terms-of-service" element={<TermsOfService />} />
+      </Routes>
+      <WhatsappButton />
+    </BrowserRouter>
   );
 };
 
