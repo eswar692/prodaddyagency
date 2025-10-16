@@ -5,7 +5,7 @@ import Services from "./pages/Services";
 import Contact from "./pages/Contact";
 import WhatsappButton from "./components/custom/WhatsappButton";
 import TermsOfService from "./pages/terms-of-service";
-import PrivacyPolicy from "./pages/privacy-policy"
+import PrivacyPolicy from "./pages/privacy-policy";
 
 const App = () => {
   return (
