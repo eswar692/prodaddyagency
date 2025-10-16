@@ -4,8 +4,8 @@ import AboutMe from "./pages/Aboubt";
 import Services from "./pages/Services";
 import Contact from "./pages/Contact";
 import WhatsappButton from "./components/custom/WhatsappButton";
-import PrivacyPolicy from "./pages/Privacy";
-import TermsOfService from "./pages/Terms";
+import Privacy from "./pages/Privacy";
+import Terms from "./pages/Terms";
 
 const App = () => {
   return (
@@ -15,8 +15,8 @@ const App = () => {
         <Route path="/about" element={<AboutMe />} />
         <Route path="/services" element={<Services />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
-        <Route path="/terms-of-service" element={<TermsOfService />} />
+        <Route path="/privacypolicy" element={<Privacy />} />
+        <Route path="/termsofservice" element={<Terms />} />
       </Routes>
       <WhatsappButton />
     </BrowserRouter>
