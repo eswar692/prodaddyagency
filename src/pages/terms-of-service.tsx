@@ -14,7 +14,7 @@ const TermsOfService = () => {
         <p>
           Welcome to <strong>Pro Daddy Agency</strong>. By accessing or using
           our website and services, you agree to comply with these Terms of
-          Service. Please read them carefully.
+          Service. Please read them carefully. and comply with them.
         </p>
 
         <div>
